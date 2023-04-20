@@ -20,7 +20,7 @@
             only if condition A is false (if A is true then A | B is also true)
             in our task for example : 
               ((cve2cpe_df.to_version == "") | (cpes_df.product_version < cve2cpe_df.to_version))
-            the condition : (cve2cpe_df.to_version == "") | (cpes_df.product_version < cve2cpe_df.to_version) 
+            the condition : (cpes_df.product_version < cve2cpe_df.to_version) 
             is checked only if cve2cpe_df.to_version is not empty. 
             
    3.  after join there canbe sevral cpes addressed to the same cve infree translation this means that there could be
