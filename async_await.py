@@ -33,8 +33,8 @@ async def get(cves, max_concurrency, cve_url, api_key):
 
 
 if __name__ == "__main__":
-    url = 'https://services.nvd.nist.gov/rest/json/cves/2.0'
-    api_key = '0ff17eff-73b8-4a3f-b6e0-8e71d5e0091a' 
+    url = 'https://some-url'
+    api_key = '00000000-0000-0000-0000-some_key' 
     cves = ['CVE-1999-0095', 'CVE-1999-0082', 'CVE-1999-1471']
     max_concurrency = 10
     # run asynchronous tasks 
