@@ -1,4 +1,4 @@
-# Wizdome-Task1 explained, 
+# py-spark example explained, 
 
 ### the inpute include 3 .json files 
    1. cves.json     include information about cybersecurity volnerabilities and exposures (cve) .
